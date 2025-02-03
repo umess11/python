@@ -2,7 +2,7 @@ pipeline{
 agent { label 'masternode' }
 
 environment {
-    DOCKER_IMAGE_NAME = 'apurwasingh/flask'
+    DOCKER_IMAGE_NAME = 'umesh1997/flask'
     DOCKER_IMAGE_TAG = 'latest'
 }
 
